@@ -1,547 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Kangogo Evans | Full-Stack Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangogo Evans | Full-Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+<!-- Navigation -->
+<nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-900">MY PORTFOLIO</h1>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="hover:text-blue-600 font-medium">About</a>
+                <a href="#skills" class="hover:text-blue-600 font-medium">Skills</a>
+                <a href="#projects" class="hover:text-blue-600 font-medium">my Work</a>
+                <a href="#contact" class="hover:text-blue-600 font-medium">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<main class="max-w-4xl mx-auto px-6 py-12 space-y-12">
+    
+    <!-- About -->
+    <section id="about" class="text-center">
+        <div class="bg-white p-12 rounded-2xl shadow-lg">
+            <div class="w-36 h-36 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-600 rounded-full mx-auto mb-8 shadow-2xl border-4 border-white p-2 flex items-center justify-center">
+    <img src="profile.jpg" alt="KANGOGO EVANS" class="w-32 h-32 rounded-full object-cover shadow-lg">
+</div>
+
+            <h2 class="text-4xl font-bold mb-4">KANGOGO EVANS</h2>
+            <p class="text-xl font-bold text-gray-600 mb-6">Full-Stack Developer & Automation Specialist</p>
+            <p class="text-lg font-bold text-gray-800 mb-8">About Me</p>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">Nairobi Full-Stack Developer delivering complete solutions: React/Vite frontends, Node.js/Express APIs, MongoDB databases, TypeScript, JWT auth—all deployed live on Render/Firebase/Docker. Python automation expert (scraping, file processing, Bash scripts). I build, debug, mentor, and ship production-ready e-commerce platforms and APIs.</p>
+
+
+            <a href="Evans_CV.pdf" download="Evans_Kiptoo_CV.pdf" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 inline-flex items-center gap-2">
+    <i class="fas fa-download"></i>
+    Download CV
+</a>
+
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2 class="text-3xl font-bold mb-12">Skills & Services</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold mb-6">Technical Skills</h3>
+                <div class="grid grid-cols-2 gap-4 text-sm">
+                    <span class="bg-blue-50 px-3 py-2 rounded-lg">React.js</span>
+                    <span class="bg-blue-50 px-3 py-2 rounded-lg">Node.js</span>
+                    <span class="bg-blue-50 px-3 py-2 rounded-lg">MongoDB</span>
+                    <span class="bg-blue-50 px-3 py-2 rounded-lg">Python</span>
+                    <span class="bg-blue-50 px-3 py-2 rounded-lg">Express</span>
+                    <span class="bg-blue-50 px-3 py-2 rounded-lg">Git</span>
+                    <span class="bg-blue-50 px-3 py-2 rounded-lg">Vite</span>
+                    <span class="bg-blue-50 px-3 py-2 rounded-lg">Render</span>
+                    <span class="bg-blue-50 px-3 py-2 rounded-lg">Firebase</span>
+<span class="bg-blue-50 px-3 py-2 rounded-lg">TypeScript</span>
+<span class="bg-blue-50 px-3 py-2 rounded-lg">JWT Auth</span>
+<span class="bg-blue-50 px-3 py-2 rounded-lg">REST APIs</span>
+<span class="bg-blue-50 px-3 py-2 rounded-lg">Docker</span>
+<span class="bg-blue-50 px-3 py-2 rounded-lg">Bash Scripts</span>
+
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold mb-6">Services</h3>
+                <ul class="space-y-3 text-gray-700">
+                    <li><i class="fas fa-check text-blue-600 mr-3"></i>Code Mentoring</li>
+                    <li><i class="fas fa-check text-blue-600 mr-3"></i>Debugging Sessions</li>
+                    <li><i class="fas fa-check text-blue-600 mr-3"></i>Deployment Help</li>
+                    <li><i class="fas fa-check text-blue-600 mr-3"></i>Automation Reviews</li>
+                    <li><i class="fas fa-check text-blue-600 mr-3"></i>Full-Stack Development</li>
+<li><i class="fas fa-check text-blue-600 mr-3"></i>API Development</li>
+<li><i class="fas fa-check text-blue-600 mr-3"></i>E-commerce Solutions</li>
+<li><i class="fas fa-check text-blue-600 mr-3"></i>Database Design</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <!-- Projects -->
+<!-- Projects -->
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="images/E.W_homepage.png" alt="E-commerce App Homepage" class="project-image">
+      <h3>E-commerce App</h3>
+      <p>The homepage of a full-stack e-commerce app with product browsing and cart features.</p>
+      <a href="https://github.com/sketch-tech-gif/electronics-shop.git" target="_blank">View on GitHub</a>
+      <a href="https://faith-electronics.onrender.com" target="_blank">View Live</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="images/AP.landing_page.png" alt="Admin Panel Landing Page" class="project-image">
+      <h3>Admin Panel Landing</h3>
+      <p>Landing page for the admin dashboard of an e-commerce application.</p>
+      <a href="https://github.com/sketch-tech-gif/electronics-shop.git" target="_blank">View on GitHub</a>
+      <a href="https://faith-admin.onrender.com" target="_blank">View Live</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="images/AP.homepage.png" alt="Admin Panel Homepage" class="project-image">
+      <h3>Admin Panel Homepage</h3>
+      <p>Main dashboard page for admins to manage products and orders efficiently.</p>
+      <a href="https://github.com/sketch-tech-gif/electronics-shop.git" target="_blank">View on GitHub</a>
+    </div>
+<div class="project-card">
+
+  <div class="project-images">
+    <img src="images/extractor1.png" alt="Invoice extractor folder selection">
+    <img src="images/eextractor2.png" alt="Extracted invoices organized in Excel">
+  </div>
+
+  <div class="project-info">
+    <h3>Python Invoice Extractor</h3>
+
+    <p>
+      A Python automation tool that scans PDF invoices in a selected folder
+      and automatically extracts key information such as invoice numbers,
+      vendors, and totals. The data is then organized into Excel files for
+      easier business tracking and analysis.
+    </p>
+
+    <div class="project-links">
+      <a href="https://github.com/YOUR_GITHUB_USERNAME/invoice-extractor" target="_blank">
+        View on GitHub
+      </a>
+    </div>
+  </div>
+
+</div>
+  </div>
+</section>
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-      color: #e8eaed;
-      line-height: 1.7;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    .container {
-      width: 90%;
-      max-width: 1100px;
-      margin: 0 auto;
-    }
-
-    header {
-      padding: 30px 0 10px;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 25px;
-    }
-
-    nav .logo {
-      font-weight: bold;
-      letter-spacing: 2px;
-      color: #00d4ff;
-      font-size: 1.1rem;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 30px;
-      font-size: 0.95rem;
-    }
-
-    nav ul li a {
-      padding-bottom: 3px;
-      border-bottom: 2px solid transparent;
-      transition: 0.3s;
-    }
-
-    nav ul li a:hover {
-      border-color: #00d4ff;
-      color: #00d4ff;
-    }
-
-    .hero {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      gap: 30px;
-      padding: 50px 0 60px;
-    }
-
-    .hero-text {
-      flex: 1 1 350px;
-    }
-
-    .hero-text h1 {
-      font-size: 2.8rem;
-      margin-bottom: 12px;
-      background: linear-gradient(45deg, #00d4ff, #7928ca);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      font-weight: 700;
-    }
-
-    .hero-text h2 {
-      font-size: 1.4rem;
-      font-weight: 300;
-      color: #b0b8c1;
-      margin-bottom: 18px;
-    }
-
-    .hero-text p {
-      max-width: 540px;
-      margin-bottom: 25px;
-      color: #c5cad1;
-      font-size: 0.98rem;
-    }
-
-    .hero-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .btn {
-      display: inline-block;
-      border-radius: 25px;
-      padding: 11px 24px;
-      font-size: 0.95rem;
-      font-weight: 500;
-      border: 1.5px solid transparent;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    .btn-primary {
-      background: linear-gradient(45deg, #00d4ff, #0099cc);
+    /* Projects Section CSS */
+    #projects {
+      padding: 50px 20px;
+      background-color: #111;
       color: #fff;
-      border-color: #00d4ff;
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(0, 212, 255, 0.3);
-    }
-
-    .btn-outline {
-      background: transparent;
-      color: #00d4ff;
-      border-color: #00d4ff;
-    }
-
-    .btn-outline:hover {
-      background: rgba(0, 212, 255, 0.1);
-      transform: translateY(-2px);
-    }
-
-    .hero-photo {
-      flex: 0 1 240px;
-      display: flex;
-      justify-content: center;
-    }
-
-    .hero-photo img {
-      width: 220px;
-      height: 220px;
-      border-radius: 50%;
-      border: 3px solid #00d4ff;
-      object-fit: cover;
-      background: #000;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    }
-
-    section {
-      padding: 50px 0;
-      border-top: 1px solid rgba(0, 212, 255, 0.1);
-    }
-
-    section h2 {
-      font-size: 2rem;
-      margin-bottom: 12px;
-      background: linear-gradient(45deg, #00d4ff, #7928ca);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      font-weight: 700;
-    }
-
-    .section-subtitle {
-      color: #b0b8c1;
-      margin-bottom: 28px;
-      font-size: 0.98rem;
-    }
-
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .skill-card {
-      background: rgba(0, 212, 255, 0.05);
-      padding: 20px 22px;
-      border-radius: 12px;
-      border: 1px solid rgba(0, 212, 255, 0.2);
-      transition: 0.3s;
-    }
-
-    .skill-card:hover {
-      border-color: #00d4ff;
-      background: rgba(0, 212, 255, 0.1);
-      transform: translateY(-3px);
-    }
-
-    .skill-card h3 {
-      margin-bottom: 10px;
-      font-size: 1.15rem;
-      color: #00d4ff;
-    }
-
-    .skill-card p {
-      font-size: 0.92rem;
-      color: #c5cad1;
+      text-align: center;
     }
 
     .projects-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
-    }
-
-    .project-card {
-      background: rgba(121, 40, 202, 0.08);
-      padding: 22px 22px 20px;
-      border-radius: 12px;
-      border: 1px solid rgba(121, 40, 202, 0.2);
-      transition: 0.3s;
-    }
-
-    .project-card:hover {
-      border-color: #7928ca;
-      background: rgba(121, 40, 202, 0.15);
-      transform: translateY(-3px);
-    }
-
-    .project-card h3 {
-      margin-bottom: 8px;
-      color: #7928ca;
-      font-size: 1.15rem;
-    }
-
-    .project-tech {
-      font-size: 0.85rem;
-      color: #00d4ff;
-      margin-bottom: 12px;
-      font-weight: 500;
-    }
-
-    .project-card p {
-      font-size: 0.92rem;
-      color: #c5cad1;
-      margin-bottom: 10px;
-    }
-
-    .project-card ul {
-      font-size: 0.85rem;
-      margin-left: 20px;
-      color: #b0b8c1;
-    }
-
-    .project-card li {
-      margin-bottom: 4px;
-    }
-
-    .about-content p {
-      margin-bottom: 14px;
-      color: #c5cad1;
-      font-size: 0.97rem;
-    }
-
-    .edu-item {
-      margin-bottom: 14px;
-      font-size: 0.92rem;
-      color: #b0b8c1;
-    }
-
-    .edu-item strong {
-      display: block;
-      color: #00d4ff;
-      margin-bottom: 2px;
-    }
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: 1.5fr 1fr;
-      gap: 30px;
-    }
-
-    .contact-info p {
-      margin-bottom: 10px;
-      font-size: 0.95rem;
-      color: #c5cad1;
-    }
-
-    .contact-info strong {
-      color: #00d4ff;
-    }
-
-    .contact-info a {
-      color: #00d4ff;
-      transition: 0.2s;
-    }
-
-    .contact-info a:hover {
-      text-decoration: underline;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    input, textarea {
-      padding: 10px 12px;
-      border-radius: 6px;
-      border: 1px solid rgba(0, 212, 255, 0.2);
-      background: rgba(0, 212, 255, 0.05);
-      color: #e8eaed;
-      font-size: 0.92rem;
-      transition: 0.2s;
-    }
-
-    input:focus, textarea:focus {
-      outline: none;
-      border-color: #00d4ff;
-      background: rgba(0, 212, 255, 0.1);
-    }
-
-    textarea {
-      min-height: 100px;
-      resize: vertical;
-      font-family: inherit;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px 0 30px;
-      font-size: 0.8rem;
-      color: #7a8a99;
-      border-top: 1px solid rgba(0, 212, 255, 0.1);
       margin-top: 30px;
     }
 
-    @media (max-width: 768px) {
-      nav ul {
-        display: none;
-      }
-      .contact-grid {
-        grid-template-columns: 1fr;
-      }
-      .hero {
-        padding-top: 30px;
-      }
-      .hero-text h1 {
-        font-size: 2.2rem;
-      }
-      section h2 {
-        font-size: 1.6rem;
-      }
+    .project-card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
     }
+
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+
+    .project-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project-card h3 {
+      margin: 15px 0 10px;
+    }
+
+    .project-card p {
+      margin: 0 15px 15px;
+      font-size: 0.9rem;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 8px 12px;
+      background-color: #00f;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .project-card a:hover {
+      background-color: #0066cc;
+    }
+    .project-images{
+  display:flex;
+  gap:10px;
+  padding:10px;
+}
+
+.project-images img{
+  width:50%;
+  height:200px;
+  object-fit:cover;
+  border-radius:6px;
+}
   </style>
 </head>
-<body>
-  <header id="top">
-    <div class="container">
-      <nav>
-        <div class="logo">KANGOGO EVANS</div>
-        <ul>
-          <li><a href="#skills">Services</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
 
-      <div class="hero">
-        <div class="hero-text">
-          <h1>Building Practical Web Systems for SMEs</h1>
-          <h2>Full‑Stack Developer & Systems Designer.</h2>
-          <p>
-            I build e‑commerce sites, business systems, and mobile‑friendly apps using React, Node.js,
-            Express, and MongoDB. The goal is simple: give shops and small businesses clean, affordable tools
-            that work in the real world.
-          </p>
-          <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">View My Work</a>
-            <a href="#contact" class="btn btn-outline">Hire Me</a>
-            <a href="Kangogo_Evans_CV.pdf" class="btn btn-outline" target="_blank" rel="noopener">
-              Download CV (PDF)
-            </a>
-          </div>
+    <!-- Contact -->
+<section id="contact" class="bg-white p-12 rounded-2xl shadow-lg">
+    <h2 class="text-3xl font-bold mb-12 text-center">Contact</h2>
+    <div class="grid md:grid-cols-2 gap-12">
+        <div>
+            <div class="space-y-6">
+                <div class="flex items-center space-x-4">
+                    <i class="fas fa-envelope text-2xl text-blue-600"></i>
+                    <div>
+                        <p class="font-semibold">Email</p>
+                        <a href="mailto:kangogo6074@gmail.com" class="text-blue-600 hover:underline font-medium">kangogo6074@gmail.com</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <i class="fab fa-github text-2xl text-blue-600"></i>
+                    <div>
+                        <p class="font-semibold">GitHub</p>
+                        <a href="https://github.com/sketch-tech-gif" target="_blank" class="text-blue-600 hover:underline font-medium">@sketch-tech-gif</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <i class="fab fa-whatsapp text-2xl text-green-600"></i>
+                    <div>
+                        <p class="font-semibold">WhatsApp</p>
+                        <a href="https://wa.me/254745909218" target="_blank" class="text-green-600 hover:underline font-medium">+254 745 909 218</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="hero-photo">
-          <!-- change me.jpg to your actual image file name -->
-          <img src="Windows 11.jpeg" />
-        </div>
-      </div>
+        <form id="contactForm" class="space-y-6">
+    <input type="text" id="name" placeholder="Name" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500" required>
+    <input type="email" id="email" placeholder="Email" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500" required>
+    <textarea id="message" rows="4" placeholder="Message" class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500" required></textarea>
+    
+    <div class="flex gap-4">
+        <button type="button" onclick="sendWhatsApp()" class="flex-1 bg-green-600 text-white py-4 px-6 rounded-lg font-semibold hover:bg-green-700 flex items-center justify-center gap-2">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </button>
+        <button type="button" onclick="sendEmail()" class="flex-1 bg-blue-600 text-white py-4 px-6 rounded-lg font-semibold hover:bg-blue-700 flex items-center justify-center gap-2">
+            <i class="fas fa-envelope"></i> Email
+        </button>
     </div>
-  </header>
+</form>
 
-  <main>
-    <section id="skills">
-      <div class="container">
-        <h2>Services</h2>
-        <p class="section-subtitle">
-          End‑to‑end development and support for small and growing businesses.
-        </p>
-        <div class="skills-grid">
-          <div class="skill-card">
-            <h3>Web Development (MERN)</h3>
-            <p>
-              Business websites, product catalogs, and e‑commerce-style apps using HTML, CSS, JavaScript,
-              React, Node.js, Express, and MongoDB.
-            </p>
-          </div>
-          <div class="skill-card">
-            <h3>Systems & Apps</h3>
-            <p>
-              Custom systems such as management tools, inventory or booking systems, and API‑driven web apps
-              tailored to your workflows.
-            </p>
-          </div>
-          <div class="skill-card">
-            <h3>Small Business Networking</h3>
-            <p>
-              Basic LAN/Wi‑Fi setup, router configuration, IP addressing, and troubleshooting to keep your
-              systems online in shops and small offices.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+</section>
+</main>
 
-    <section id="projects">
-      <div class="container">
-        <h2>Selected Projects</h2>
+<script>
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    emailjs.init("5o3ZzE9sr_dvgM4za");
 
-        <div class="projects-grid">
-          <div class="project-card">
-            <h3>Luckmart – E‑commerce Platform</h3>
-            <div class="project-tech">React • Node.js • Express • MongoDB • JWT</div>
-            <p>
-              Online marketplace MVP with product listing, search, categories, cart, and secure authentication.
-            </p>
-            <ul>
-              <li>Product listing, category filters, and search bar.</li>
-              <li>Cart and basic order flow with protected routes.</li>
-              <li>REST API built with Express and MongoDB Atlas.</li>
-            </ul>
-          </div>
+    function sendWhatsApp() {
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+    
+    if (!name || !email || !message) {
+        alert('All fields are required!');
+        return;
+    }
+    
+    const whatsappText = `New Contact Form%0A%0AName: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+    window.open(`https://wa.me/254745909218?text=${whatsappText}`, '_blank');
+}
 
-          <div class="project-card">
-            <h3>Electronics Shop Website – Catalog</h3>
-            <div class="project-tech">Web Catalog • Kenya Electronics Shop</div>
-            <p>
-              Responsive product catalog website for an electronics retailer, designed around a KES 20,000
-              budget for a clean, focused online presence.
-            </p>
-            <ul>
-              <li>Grid layout for phones, laptops, TVs, and accessories.</li>
-              <li>“Order via WhatsApp/Call” actions instead of full checkout.</li>
-              <li>Guided client on domain, hosting, and content structure.</li>
-            </ul>
-          </div>
 
-          <div class="project-card">
-            <h3>Nekta Management System – Bee‑Keeping</h3>
-            <div class="project-tech">Management System • KCSE Project</div>
-            <p>
-              Management system for a bee‑keeping company to organize hives, production, and sales records.
-            </p>
-            <ul>
-              <li>Tracks hives, production, and sales records.</li>
-              <li>User‑friendly interface for non‑technical users.</li>
-              <li>Applied core CRUD and systems design principles.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    function sendEmail() {
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+    
+    // 🚫 BLOCK EMPTY FIELDS
+    if (!name || !email || !message) {
+        alert('All fields are required!');
+        return;
+    }
+    
+    // 🚫 VALIDATE EMAIL FORMAT
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alert(' Please enter a valid email address!');
+        return;
+    }
+    
+    emailjs.send('service_lzqxp9w', 'template_97nntgf', {
+        from_name: name,
+        from_email: email,
+        message: message,
+        to_email: 'kangogo6074@gmail.com'
+    }).then(() => {
+        alert('✅ Email sent successfully.Thank you!');
+        document.getElementById('contactForm').reset();
+    }, (error) => {
+        alert('❌ Email failed - try WhatsApp instead!');
+        console.error(error);
+    });
+}
 
-    <section id="about">
-      <div class="container">
-        <h2>About Me</h2>
-        <div class="about-content">
-          <p>
-            I am a diploma‑trained developer (Computer Programming, Cooperative University of Kenya – Karen)
-            with hands‑on experience building e‑commerce platforms and business systems.
-          </p>
-          <p>
-            Starting from Nekta Management System in high school to Luckmart today, I focus on turning real
-            business processes into simple, reliable software that non‑technical users can work with every day.
-          </p>
-        </div>
+</script>
 
-        <h3 style="margin-top:20px; margin-bottom:10px; font-size:1.1rem; color:#f6b93b;">
-          Education
-        </h3>
-        <div class="edu-item">
-          <strong>Diploma in Computer Programming</strong>
-          Cooperative University of Kenya – Karen Campus (2023 – 2025)
-        </div>
-        <div class="edu-item">
-          <strong>Kenya Certificate of Secondary Education (KCSE)</strong>
-          Chebara Boys High School (2019 – 2022) – B (Plain), A in Computer Studies
-        </div>
-        <div class="edu-item">
-          <strong>Primary Education</strong>
-          AIC Rorok Academy (2016 – 2018)
-        </div>
-      </div>
-    </section>
 
-    <section id="contact">
-      <div class="container">
-        <h2>Let’s Work Together</h2>
-        <div class="contact-grid">
-          <div class="contact-info">
-            <p>
-              Need a website, system, or help putting your electronics shop or business online?
-              Reach out and let’s talk about what you want to build.
-            </p>
-            <p><strong>Email:</strong> <a href="mailto:kangogoevans6074@gmail.com">kangogoevans6074@gmail.com</a></p>
-            <p><strong>Phone / WhatsApp:</strong> <a href="https://wa.me/254745909218" target="_blank">+254 745 909 218</a></p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/sketch-tech-gif" target="_blank">github.com/sketch-tech-gif</a></p>
-          </div>
 
-          <div>
-            <form action="mailto:kangogoevans6074@gmail.com" method="post" enctype="text/plain">
-              <input type="text" name="name" placeholder="Your name" required />
-              <input type="email" name="email" placeholder="Your email" required />
-              <textarea name="message" placeholder="Tell me about your project" required></textarea>
-              <button type="submit" class="btn btn-primary" style="width:120px;">Send</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
 
-  <footer>
-    © <span id="year"></span> Kangogo Evans · Full‑Stack Developer & Systems Designer
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
