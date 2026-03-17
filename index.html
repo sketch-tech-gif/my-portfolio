@@ -12,7 +12,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #fff;  /* important so content doesn’t show through */
+    background: #0d0d0d;  /* important so content doesn’t show through */
     z-index: 1000;     /* keeps it above everything */
     box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* subtle clean shadow */
 body {
@@ -32,17 +32,20 @@ header.scrolled {
 .navbar {
   position: fixed;   /* Fixes the navbar to the viewport */
   top: 0;            /* Stick to the top */
-  left: 0;           /* Align to the left */
+  right: 0;           /* Align to the right*/
   width: 100%;       /* Make it span the full width */
   z-index: 1000;     /* Make sure it stays above other content */
-  background-color: white; /* Optional: match your site's background */
+  background-color: rgb(14, 13, 13); /* Optional: match your site's background */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+  display: flex;
+align-items: center;
+justify-content: space-between;
 }
         
         .logo {
             font-weight: 700;
-            font-size: 1.3rem;
-            color: #1f2937;
+            font-size: 1.9rem;
+            color: #d2f0fb;
         }
         
         .nav-links {
@@ -51,6 +54,7 @@ header.scrolled {
             margin: 0;
             padding: 0;
             gap: 2rem;
+            margin-left: auto;
         }
         
         .nav-links a {
