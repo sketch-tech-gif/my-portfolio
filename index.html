@@ -44,7 +44,7 @@ justify-content: space-between;
         
         .logo {
             font-weight: 700;
-            font-size: 1.9rem;
+            font-size: 1.6rem;
             color: #d2f0fb;
         }
         
@@ -89,7 +89,9 @@ justify-content: space-between;
                 position: absolute;
                 top: 100%; /* Right below navbar */
                 right: 1.5rem; /* Align with hamburger */
-                background: white;
+                background: rgba(255, 255, 255, 0.1); /* transparent */
+backdrop-filter: blur(10px);          /* glass blur */
+-webkit-backdrop-filter: blur(10px);  /* safari support */
                 flex-direction: column;
                 min-width: 180px;
                 box-shadow: 0 8px 25px rgba(0,0,0,0.15);
