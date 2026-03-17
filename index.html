@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kangogo Evans | Full-Stack Developer</title>
-    <!-- CACHE BUSTER - FORCES UPDATE -->
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- REST OF YOUR STYLES... -->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+      header {
+    position: fixed;   /* keeps it locked */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;  /* important so content doesn’t show through */
+    z-index: 1000;     /* keeps it above everything */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* subtle clean shadow */
+}
+body {
+    padding-top: 80px; /* adjust to your navbar height */
+}
+header {
+    transition: all 0.3s ease;
+}
+
+header.scrolled {
+    padding: 10px 0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
         /* PERFECT MOBILE HAMBURGER - TOP RIGHT CORNER, DROPDOWN MENU */
         .navbar {
             display: flex;
@@ -107,6 +121,14 @@
                 display: block;
             }
         }
+        header {
+    transition: all 0.3s ease;
+}
+
+header.scrolled {
+    padding: 10px 0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
 
         /* Projects Styles */
         #projects { background: white; padding: 60px 20px; text-align: center; }
